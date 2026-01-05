@@ -1,0 +1,27 @@
+version: 2
+
+models:
+  - name: fct_nyc_taxi_payment_analysis
+    description: "golden table for total payment"
+
+    columns:
+      - name: payment_type
+        tests:
+          - not_null
+          - unique
+
+      -  name: total_trip
+         tests:
+          - not_null
+
+      -  name: total_amount
+         tests:
+          - not_null
+
+      -  name: avg_tip_amount
+         tests:
+           - not_null
+
+      -  name: avg_tip_percentage
+         tests:
+           - not_null

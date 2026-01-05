@@ -1,0 +1,37 @@
+version: 2
+
+models:
+  - name: fct_nyc_taxi_daily_kpis
+    description: "Daily KPIs for NYC taxi trips"
+
+    columns:
+      - name: trip_date
+        description: "Trip date (UTC)"
+        tests:
+          - not_null
+          - unique
+
+      - name: total_trips
+        description: "Total number of trips per day"
+        tests:
+          - not_null
+
+      - name: total_revenue
+        description: "Total revenue per day"
+        tests:
+          - not_null
+
+      - name: avg_fare_amount
+        description: "Average fare per trip"
+        tests:
+          - not_null
+
+      - name: avg_trip_distance
+        description: "Average trip distance in miles"
+        tests:
+          - not_null
+
+      - name: avg_trip_duration_minutes
+        description: "Average trip duration in minutes"
+        tests:
+          - not_null

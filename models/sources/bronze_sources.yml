@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: nyc_taxi
+    description: "NYC Yellow Taxi raw (bronze) data"
+    database: workspace
+    schema: default
+
+    tables:
+      - name: yellow_tripdata_bronz
+        description: "Raw yellow taxi trip data"
+        columns:
+          - name: tpep_pickup_datetime
+            tests:
+              - not_null

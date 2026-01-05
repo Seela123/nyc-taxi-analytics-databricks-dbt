@@ -1,0 +1,31 @@
+version: 2
+
+models:
+  - name: fct_nyc_taxi_pickup_location
+    description: "check where have more which point have more customer"
+
+    columns:
+      - name: pulocationid
+        tests:
+          - not_null
+          - unique
+
+
+      - name: total_trips
+        tests:
+          - not_null
+
+
+      - name: total_revenue
+        tests:
+          - not_null
+
+
+      - name: avg_trip_distance
+        tests:
+          - not_null
+
+
+      - name: avg_trip_duration_minutes
+        tests:
+          - not_null

@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: silver_yellow_data
+    description: "Cleaned silver layer for yellow taxi data"
+
+    columns:
+      - name: tpep_pickup_datetime
+        tests:
+          - not_null

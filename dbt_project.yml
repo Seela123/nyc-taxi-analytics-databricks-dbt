@@ -1,0 +1,12 @@
+name: nyc_data
+version: '1.0'
+profile: nyc_data
+
+models:
+  nyc_data:
+    bronze:
+      +schema: bronze
+    silver:
+      +schema: silver
+    gold:
+      +schema: gold
