@@ -122,23 +122,35 @@ All dashboards are built only on Gold tables.
 
 Total trips
 
+<img width="681" height="531" alt="image" src="https://github.com/user-attachments/assets/58e0c434-1b7a-49cc-94eb-9fd1d88dee2d" />
+
+
 Total revenue
 
-Trips over time
-
-Revenue over time
+<img width="684" height="532" alt="image" src="https://github.com/user-attachments/assets/dd343246-174f-460b-8c00-1b7b37ddb483" />
 
 - Dashboard 2 — Pickup Location Performance
 
 Top 10 pickup locations by trips
 
+<img width="683" height="527" alt="image" src="https://github.com/user-attachments/assets/85052bae-7a0d-461a-8fa4-700e6d728d72" />
+
+
 Top 10 pickup locations by revenue
+
+<img width="677" height="522" alt="image" src="https://github.com/user-attachments/assets/8e3a3030-fa5c-497d-ae59-46b64ff1323b" />
+
 
 - Dashboard 3 — Payment & Tip Behavior
 
 Trips by payment type
 
+<img width="689" height="623" alt="image" src="https://github.com/user-attachments/assets/eb9d53de-867e-4bc8-a57d-489563c6ce61" />
+
+
 Revenue by payment type
+
+<img width="675" height="617" alt="image" src="https://github.com/user-attachments/assets/9ca1a0ab-3ce1-4978-98de-59e78d5e22f6" />
 
 
 - Data Quality & Testing
