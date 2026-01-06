@@ -7,19 +7,9 @@ The solution follows a Bronze → Silver → Gold architecture and culminates in
 
 - Architecture Overview
 
-Raw Parquet Files
-        │
-        ▼
-Bronze Layer (Raw Ingestion)
-        │
-        ▼
-Silver Layer (Cleaned & Enriched)
-        │
-        ▼
-Gold Layer (Business Facts & KPIs)
-        │
-        ▼
-Databricks Dashboards
+<p align="center">
+  <img src="Architecture.png" width="850"/>
+</p>
 
 - Tech Stack
 
